@@ -9,15 +9,14 @@ const mailList = [
     'bethesda@gmail.com',
     'cdprojectgmail.com'
   ];
-   console.log(mailList);
   
-// stampa un messaggio appropriato sull’esito del controllo.
+
 
 console.log(mailList);
 for (let i = 0; i < mailList.length ;i++){
     console.log(mailList[i]);
 
-
+// stampa un messaggio appropriato sull’esito del controllo.
     if (mailEl == mailList[i]) {
         console.log('la mail è nella lista');
     } else {
@@ -27,4 +26,11 @@ for (let i = 0; i < mailList.length ;i++){
 
 
 
+//Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 
+const numberCPU = Math.floor(Math.random() * 6);
+console.log(numberCPU);
+
+const numberPlayer = Math.floor(Math.random() * 6);
+console.log(numberPlayer);
+//Stabilire il vincitore, in base a chi fa il punteggio più alto.
