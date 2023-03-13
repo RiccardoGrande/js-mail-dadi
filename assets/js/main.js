@@ -5,7 +5,7 @@
 //controlla che sia nella lista di chi può accedere
 const mailList = [
     'batman@gmail.com',
-    'daftpunkgmail.com',
+    'daftpunk@gmail.com',
     'bethesda@gmail.com',
     'cdprojectgmail.com'
   ];
@@ -13,8 +13,18 @@ const mailList = [
   
 // stampa un messaggio appropriato sull’esito del controllo.
 
-if (mailList == mailEl) {
-    console.log('la mail è nella lista');
-} else {
-    console.log('la mail non è nella lista');
+console.log(mailList);
+for (let i = 0; i < mailList.length ;i++){
+    console.log(mailList[i]);
+
+
+    if (mailEl == mailList[i]) {
+        console.log('la mail è nella lista');
+    } else {
+        console.log('la mail non è nella lista');
+    }
 }
+
+
+
+
