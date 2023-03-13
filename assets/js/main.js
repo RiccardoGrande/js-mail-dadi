@@ -34,3 +34,9 @@ console.log(numberCPU);
 const numberPlayer = Math.floor(Math.random() * 6);
 console.log(numberPlayer);
 //Stabilire il vincitore, in base a chi fa il punteggio più alto.
+
+if (numberCPU < numberPlayer) {
+    console.log('vince il giocatore');
+} else {
+    console.log('vince il computer');
+}
